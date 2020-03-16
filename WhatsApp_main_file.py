@@ -9,7 +9,7 @@ with open('sample.csv',"r") as f:
     for row in csv_reader:
         l.append(row[0])
 
-driver=webdriver.Chrome("D:\\Drivers\\chromedriver.exe")   # Selenium chromedriver path
+driver=webdriver.Chrome("E:\\Drivers\\chromedriver.exe")   # Selenium chromedriver path
 driver.get("https://web.whatsapp.com/")
 
 input("Enter any keyword after scanning QR code ")  
