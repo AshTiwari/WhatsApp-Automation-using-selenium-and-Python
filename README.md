@@ -4,8 +4,9 @@ This python program will read the names of person from a csv file and send them 
 Requirements:
 1. Open cmd and type: pip install openpyxl
 2. Update chrome to latest version(or above 80)
-3. Download chromedriver and store it in E://Drivers
+3. Download chromedriver from https://chromedriver.chromium.org/downloads and store it in E://Drivers
 4. If chromedriver is stored at any other location, make the required changes in python code.
+5. Save an excel file in the same folder where this python file is stored. Name the excel file as 'sample.csv'. 
 
 
 After running the code:
